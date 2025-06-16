@@ -8,7 +8,6 @@ import Courses from './pages/Courses';
 import Help from './pages/Help';
 import Assignments from './pages/Assignment';
 import './styles/styles.css'
-import Footer from './pages/Footer';
 
 const App = () => {
   const [isSidebarOpen, setSidebarOpen] = useState(false);
@@ -76,7 +75,6 @@ const App = () => {
       </div>
        
     </Router>
-    <Footer />
     
     </>
   );

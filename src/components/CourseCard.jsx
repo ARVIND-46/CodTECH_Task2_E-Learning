@@ -31,7 +31,7 @@ const Courses = () => {
   );
 
   return (
-    <div className="p-4">
+    <div className="w-full px-4 md:px-6 lg:px-10">
       <h2 className="text-2xl font-bold mb-4">Courses</h2>
 
       {/* Tabs */}
